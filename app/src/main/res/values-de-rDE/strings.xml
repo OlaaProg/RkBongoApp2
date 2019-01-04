@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">RkBongoApp</string>
+	<string name="strNoteInfo">Notizinfo</string>
+	<string name="strBongoNoteNameHint">Notizname</string>
+	<string name="strLatitudeText">BG:</string>
+	<string name="strLongitudeText">LG:</string>
+	<string name="strAltitudeText">HM:</string>
+	<string name="strLocationText">Standort</string>
+	<string name="strSaveText">Speichern</string>
+	<string name="strDeleteText">Löschen</string>
+	<string name="strShareText">Teilen</string>
+	<string name="strAddText">Hinzufügen</string>
+	<string name="strInfoText">Informationen</string>
+	<string name="strEmailText">Schreiben Sie uns eine Email</string>
+	<string name="strHotlineText">Rufen Sie uns an</string>
+	<string name="strVisitWebside">Besuchen Sie uns online</string>
+	<string name="strBongoNotePictureDescriptionText">Bildbeschreibung</string>
+	<string name="strWebSideUrl">https://www.google.de</string>
+	<string name="strCompanyDescriptionAsHtml">
+		<![CDATA[
+		
+		<!doctype html>
+		<html>
+			<head>
+				<meta charset="utf-8"/>
+				<style>
+				
+					body > p{
+						width:49%;
+						margin-top:0;
+						margin-bottom:0;
+						float:left;
+					}
+					#ratingInfoBox{
+						margin-top:0;
+						margin-bottom:0;
+						width:49%;
+						float:right;
+						background:gray;
+						color:white;
+						border: 2px black solid;
+					}
+					#ratingInfoBox > a{
+					    color:white;
+					}
+					
+					
+					
+				</style>
+			</head>
+			<body>
+				<h1>BongoNotApp</h1>
+				<p>
+					Die <b>Bongo Note App</b> ist toll und hilft Ihnen dabei sich Dinge besser zu merken.
+				</p>
+				<div id="ratingInfoBox">
+					Bitte bewerten Sie uns im<a href="https://play.google.com/store/apps/details?id=com.evernote">Google Play Store</a> :D
+				</div>
+				<p>
+					<i>Viel Spaß:-D</i>
+				</p>
+			</body>
+		</html>
+
+		]]>
+	</string>
+	<string name="strUserMsgNoSystemCameraApp">Sie haben leider keine Systemkameraapp.</string>
+	<string name="strTestStuff">Test stuff</string>
+	<string name="strUserMsgSavedSuccessfully">Erfolgreich gespeichert.</string>
+	<string name="strUserMsgUpdatedSuccessfully">Erfolgreich geändert.</string>
+</resources>

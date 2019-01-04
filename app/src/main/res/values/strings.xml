@@ -1,0 +1,89 @@
+<resources>
+	<string name="app_name" translatable="false">RkBongoApp</string>
+	<string name="strNoteInfo">Note info</string>
+	<string name="strDatePattern" translatable="false">dd.MM.yyyy</string>
+	<string name="strBongoNoteNameHint">Note name</string>
+	<string name="strLatitudeText">LAT:</string>
+	<string name="strLongitudeText">LON:</string>
+	<string name="strAltitudeText">ALT:</string>
+	<string name="strLocationText">Location</string>
+	<string name="strSaveText">Save</string>
+	<string name="strDeleteText">Delete</string>
+	<string name="strShareText">Share</string>
+	<string name="strAddText">Add</string>
+	<string name="strInfoText">Info</string>
+	<string name="strEmailText">Write us a mail.</string>
+	<string name="strHotlineText">Call us</string>
+	<string name="strVisitWebside">Visit us online</string>
+	<string name="strExtraNameId" translatable="false">extraNameId</string>
+	<string name="strBongoNotePictureDescriptionText">Picture description</string>
+	
+	<!--Muss zwangsweis ein kleines tel: haben. Die nummer folgt ohne Leerzeichen-->
+	<string name="strHotlineNumber" translatable="false">tel:123456789</string>
+	
+	<string name="strImageTimeStampPattern" translatable="false">yyyyMMdd_HHmmss</string>
+	<!--TODO Diese strings bei euch einfuegen-->
+	<string name="strImagePrefixJpg" translatable="false">JPEG_</string>
+	<string name="strFileNameSeperator" translatable="false">_</string>
+	<string name="strFileExtensionJpg" translatable="false">.jpg</string>
+	<string name="strFileProviderAuthority" translatable="false">de.rkasper.rkbongoapp.fileprovider</string>
+	
+	<string name="strHtmlContentType" translatable="false">text/html</string>
+	<string name="strHtmlEncoding" translatable="false">UTF-8</string>
+	<string name="strCompanyDescriptionAsHtml" translatable="false">
+		<![CDATA[
+		
+		<!doctype html>
+		<html>
+			<head>
+				<meta charset="utf-8"/>
+				<style>
+				
+					body > p{
+						width:49%;
+						margin-top:0;
+						margin-bottom:0;
+						float:left;
+					}
+					#ratingInfoBox{
+						margin-top:0;
+						margin-bottom:0;
+						width:49%;
+						float:right;
+						background:gray;
+						color:white;
+						border: 2px black solid;
+					}
+					#ratingInfoBox > a{
+					    color:white;
+					}
+					 
+					
+					
+				</style>
+			</head>
+			<body>
+				<h1>BongoNotApp</h1>
+				<p>
+					The <b>Bongo Note App</b> is great, to help you remember things.
+				</p>
+				<div id="ratingInfoBox">
+					Please rate us in the <a href="https://play.google.com/store/apps/details?id=com.evernote">Google Play Store</a> :D
+				</div>
+				<p>
+					<i>Have fun :-D</i>
+				</p>
+			</body>
+		</html>
+
+		]]>
+	</string>
+	<string name="strWebSideUrl" translatable="false">https://www.google.com</string>
+	<string name="strDefaultEmailAddressToSendTo" translatable="false">beispielemail@beispiel.de</string>
+	<string name="strDefaultEmailSubject" translatable="false">Notification</string>
+	<string name="strDataTypToSend" translatable="false">text/plain</string>
+	<string name="strUserMsgNoSystemCameraApp">Sorry, but you have no system camera app.</string>
+	<string name="strTestStuff">Test stuff</string>
+	<string name="strUserMsgUpdatedSuccessfully">Updated successfully</string>
+	<string name="strUserMsgSavedSuccessfully">Saved successfully</string>
+</resources>

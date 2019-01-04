@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="de.rkasper.rkbongoapp">
+	
+	<!-- Berechtigung im Manifest eintragen -->
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	
+	<!--
+		Ist ein Hardwarezugriff ein Hauptbestandteil
+		der App so wird required auf true gesetzt.
+		Der Googleplaystore bietet diese App dann
+		nur fuer Gereate an, die diese Hardware haben.
+		Ist required auf false gesetzt, so muss man
+		als Entwickler selber checken ob die entsprechende
+		Hardware und eine Systemapp auf dem Geraet/System
+		vorhanden.
+    -->
+	<uses-feature
+		android:name="android.hardware.camera"
+		android:required="true" />
+	
+	<application
+		android:allowBackup="true"
+		android:icon="@mipmap/ic_launcher"
+		android:label="@string/app_name"
+		android:roundIcon="@mipmap/ic_launcher_round"
+		android:supportsRtl="true"
+		android:theme="@style/AppTheme">
+		
+		<!--
+			Provider Tag integrieren EURE PACKAGESTRUKTUR einpflegen
+			nicht meine stehen lassen.
+        -->
+		<provider
+			android:name="android.support.v4.content.FileProvider"
+			android:authorities="@string/strFileProviderAuthority"
+			android:exported="false"
+			android:grantUriPermissions="true">
+			<meta-data
+				android:name="android.support.FILE_PROVIDER_PATHS"
+				android:resource="@xml/file_paths" />
+		</provider>
+		
+		<activity android:name=".gui.MainActivity">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".gui.BongoNoteCrudActivity" />
+		<activity android:name=".gui.AboutUsActivity" />
+		<activity android:name=".testdata.TestActivity">
+			<!--<intent-filter>-->
+				<!--<action android:name="android.intent.action.MAIN" />-->
+				<!---->
+				<!--<category android:name="android.intent.category.LAUNCHER" />-->
+			<!--</intent-filter>-->
+		</activity>
+	</application>
+
+</manifest>

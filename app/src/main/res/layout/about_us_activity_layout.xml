@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context=".gui.AboutUsActivity">
+	
+	<ImageView
+		android:id="@+id/imgvCompanyLogo"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1"
+		app:srcCompat="@mipmap/ic_launcher_round" />
+	
+	<WebView
+		android:id="@+id/wvCompanyDescription"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="3">
+	
+	</WebView>
+	
+	<Button
+		android:id="@+id/btnEmail"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1"
+		android:text="@string/strEmailText"
+		android:textAllCaps="false" />
+	
+	<Button
+		android:id="@+id/btnCallHotline"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1"
+		android:text="@string/strHotlineText"
+		android:textAllCaps="false" />
+	
+	<Button
+		android:id="@+id/btnVisitWebside"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1"
+		android:text="@string/strVisitWebside"
+		android:textAllCaps="false" />
+</LinearLayout>

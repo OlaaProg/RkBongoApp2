@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	tools:context=".gui.BongoNoteCrudActivity">
+	
+	<TextView
+		android:id="@+id/txtvEditDate"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/strDatePattern"
+		android:textAlignment="center"
+		android:textSize="24sp" />
+	
+	<EditText
+		android:id="@+id/txtBongoNoteName"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:hint="@string/strBongoNoteNameHint"
+		android:inputType="textPersonName" />
+	
+	<EditText
+		android:id="@+id/txtBongoNoteContent"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:inputType="textMultiLine"
+		android:lines="@integer/iLinesBongoNoteContent"
+		android:maxLines="@integer/iLinesBongoNoteContent"
+		android:minLines="@integer/iLinesBongoNoteContent" />
+	
+	<TextView
+		android:id="@+id/txtvLocation"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/strLocationText"
+		android:textAlignment="center"
+		android:textColor="@android:color/black"
+		android:textSize="18sp" />
+	
+	<TextView
+		android:id="@+id/txtvLongitude"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/strLongitudeText"
+		android:textColor="@android:color/black"
+		android:textSize="18sp" />
+	
+	<TextView
+		android:id="@+id/txtvLatitude"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/strLatitudeText"
+		android:textColor="@android:color/black"
+		android:textSize="18sp" />
+	
+	<TextView
+		android:id="@+id/txtvAltitude"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/strAltitudeText"
+		android:textColor="@android:color/black"
+		android:textSize="18sp" />
+	
+	<ImageView
+		android:id="@+id/imgvBongoPicture"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		app:srcCompat="@mipmap/ic_launcher_round" />
+	
+	<TextView
+		android:id="@+id/txtvBongoPictureDescription"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/strBongoNotePictureDescriptionText"
+		android:textAlignment="center"
+		android:textColor="@android:color/black"
+		android:textSize="18sp" />
+
+</LinearLayout>
